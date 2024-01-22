@@ -1,0 +1,63 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* desktop 769px — 1024px: Small screens, laptops */
+@media only screen and (min-width: 769px) {
+  :root {
+    --page-bg: #f7f7f8;
+    --orange-bg: #ff9500;
+    --orange-bg-light: rgba(255, 149, 0, 0.096);
+    --orange-text: #ff9500;
+    --dark-text: #262626;
+    --border-color-grey: #f1f1f3;
+    --border-grey: 1px solid var(--border-color-grey);
+    --border-orange: 1px solid rgba(255, 149, 0, 0.2);
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 0.25rem;
+    }
+  }
+}
+
+/*  tablet 481px — 768px: iPads, Tablets*/
+@media only screen and (max-width: 481px) {
+  :root {
+    --page-bg: #f7f7f8;
+    --orange-bg: #ff9500;
+    --orange-bg-light: rgba(255, 149, 0, 0.096);
+    --orange-text: #ff9500;
+    --dark-text: #262626;
+    --border-color-grey: #f1f1f3;
+    --border-grey: 1px solid var(--border-color-grey);
+    --border-orange: 1px solid rgba(255, 149, 0, 0.2);
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 0.25rem;
+    }
+  }
+}
+
+
+/* mobile 320px — 480px: Mobile devices*/
+@media only screen and (max-width: 480px) {
+  :root {
+    --page-bg: #f7f7f8;
+    --orange-bg: #ff9500;
+    --orange-bg-light: rgba(255, 149, 0, 0.096);
+    --orange-text: #ff9500;
+    --dark-text: #262626;
+    --border-color-grey: #f1f1f3;
+    --border-grey: 1px solid var(--border-color-grey);
+    --border-orange: 1px solid rgba(255, 149, 0, 0.2);
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 0.25rem;
+    }
+  }
+}
